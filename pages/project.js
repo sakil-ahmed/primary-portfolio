@@ -8,6 +8,11 @@ const Project = () => {
     <div>
       <Header />
       <Portfolio />
+      <div
+        style={{
+          height: "100px",
+        }}
+      ></div>
       <Footer />
     </div>
   );

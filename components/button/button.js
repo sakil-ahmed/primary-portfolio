@@ -17,6 +17,7 @@ const PrimaryBtn = styled.div`
     background-color: ${THEME.colors.secondary};
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    display: inline-block;
 
     &:hover {
       background: transparent;
