@@ -4,7 +4,8 @@ import media from "./../../styles/Responsive";
 
 const StyledHeader = styled.header`
   background-color: ${THEME.colors.primary};
-  padding-top: 43px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   .row {
     display: flex;
     align-items: center;

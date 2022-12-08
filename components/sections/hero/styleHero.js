@@ -4,7 +4,7 @@ import media from "./../../../styles/Responsive";
 
 const StyleHero = styled.section`
   background-color: ${THEME.colors.primary};
-  padding-top: 97px;
+  padding-top: 57px;
   padding-bottom: 80px;
   position: relative;
   ${media.down("md")} {
@@ -74,6 +74,7 @@ const StyleHero = styled.section`
         object-fit: cover;
       }
       .hero__image__icon {
+        display: none;
         ${media.up("lg")} {
           position: absolute;
         }

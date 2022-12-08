@@ -43,7 +43,7 @@ const Portfolio = () => {
               title="Doctor Web App Design"
               img={img3}
             />
-            <Button text="All Project" />
+            <Button path="/project" text="All Project" />
           </div>
         </div>
       </Container>

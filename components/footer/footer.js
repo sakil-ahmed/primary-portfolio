@@ -19,28 +19,8 @@ const Footer = () => {
               engagement, I utilize focused teams that combine experience
               design, modern engineering, and iterative program.
             </Description>
-            <Button text="Let’s Talk" />
+            <Button path="mailto:sakilahmed.dev@gmail.com" text="Let’s Talk" />
           </div>
-        </div>
-        <Title tagName="h3" className="h3 sub__title">
-          Say hi!
-        </Title>
-        <div className="footer__cta">
-          <Button
-            varient="outline"
-            text="Email Me"
-            path="mailto:sakilahmed.dev@gmail.com"
-          />
-          <Button
-            varient="outline"
-            text="Facebook"
-            path="https://www.facebook.com/sakilahmed009"
-          />
-          <Button
-            varient="outline"
-            text="Linkedin"
-            path="https://www.linkedin.com/in/sakil-ahmed007/"
-          />
         </div>
         <Description className="copy__right__text">
           Copyright © 2022 UIHUT all rights reserved.

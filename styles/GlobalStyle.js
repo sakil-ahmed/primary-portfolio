@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
 
 *, *::before, *::after {
   box-sizing: border-box;
-  scroll-behavior: smooth;
+ 
 }
 
 * {
@@ -14,13 +14,19 @@ const GlobalStyle = createGlobalStyle`
 
 html, body {
   height: 100%;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
  
   
+}
+::-webkit-scrollbar{
+  display: none;
 }
 
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  
 }
 
 img, picture, video, canvas, svg {
